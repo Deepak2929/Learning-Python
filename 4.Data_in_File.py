@@ -1,3 +1,5 @@
+
+
 scores=[]
 file_handler=open("RESULTS.txt")                # Notice the File Handler which will represent the file(RESULT.txt) throughout our code.It is our File.
 for each_line in file_handler:
