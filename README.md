@@ -64,7 +64,7 @@ to, but not including)
 UPPERCASE
 * float() converts strings to decimal point numbers
 known as “floats"
-* + addition operator
+* '+' addition operator
 * '>' greater than operator
 * urllib.request library for talking to the Web
 * time library for working with dates/time
