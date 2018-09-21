@@ -1,3 +1,8 @@
+'''The program extract the price starting at any dynamic position in Html page. The price is four characters long.
+.Price-grabbing program extracts the four-character substring that follows the occurence of the “>$” characters.
+Store the price substring in a variable called price.The program also keeps checking the website until the price of
+the beans falls below $4.74'''
+
 import urllib.request
 import time
 def set_beans_price():
@@ -25,7 +30,7 @@ while choice!=3:
     if int(choice)==2:
         coffee_beans=set_beans_price()
         while coffee_beans>137.0:
-            time.sleep(30)
+            time.sleep(40)
             coffee_beans=set_beans_price()
             print("Higher Prices")
         print("Time to buy at Low Prices")
