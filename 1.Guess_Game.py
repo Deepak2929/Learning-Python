@@ -1,4 +1,8 @@
-from random import randint
+'''This code is a guessing-game program.The program keep asking the user for an answer while the current
+guess is wrong. It keeps running until the user guesses the correct answer.--
+from random import randint'''
+
+
 secret=randint(1,10)
 choice="yes"
 while choice =="yes":
@@ -24,4 +28,17 @@ while choice =="yes":
 			secret=randint(1,10)
 print("Game over")
 
+'''
+Python Tools used:
+* if/else branches
+* while loops
+* = assignment operator
+* == equality operator
+* != inequality operator
+* > greater than operator
+* print() displays a message on screen
+* input() gets and returns user input
+* int() converts characters to numbers
+* randint() produces a random number
+'''
 	
