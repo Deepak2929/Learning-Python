@@ -24,7 +24,7 @@ PYTHON TOOLS:
 * = assignment operator
 * == equality operator
 * != inequality operator
-* > greater than operator
+*  '>' greater than operator
 * print() displays a message on screen
 * input() gets and returns user input
 * int() converts characters to numbers
@@ -65,7 +65,7 @@ UPPERCASE
 * float() converts strings to decimal point numbers
 known as “floats"
 * + addition operator
-* > greater than operator
+* '>' greater than operator
 * urllib.request library for talking to the Web
 * time library for working with dates/time
 ------------------------------------------------------------------------------------------------------------------------------------------
