@@ -36,6 +36,21 @@ while choice!=3:
         print("Time to buy at Low Prices")
 print("Thank You for using the application")
 
+'''PYTHON TOOLS:
+* s[4] - access the 5th character of the variable “s",
+which is a string
+* s[6:12] - access a sub-string within the string “s" (up
+to, but not including)
+*s.find() method for searching strings
+* s.upper() method for converting strings to
+UPPERCASE
+* float() converts strings to decimal point numbers
+known as “floats"
+* + addition operator
+* > greater than operator
+* urllib.request library for talking to the Web
+* time library for working with dates/time'''
+
         
 
     
